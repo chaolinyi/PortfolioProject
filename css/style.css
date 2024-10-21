@@ -4,6 +4,27 @@ h1 {
 }
 
 img {
-    width: 100%;
+    width: 60%;
     height: auto;
+}
+
+/* 添加一些CSS样式来使导航栏更美观（可选）*/
+.navbar {
+    list-style-type: none; /* 移除列表项前的标记 */
+    margin: 0; /* 移除外边距 */
+    padding: 0; /* 移除内边距 */
+    overflow: hidden; /* 隐藏溢出的内容 */
+    background-color: #333; /* 设置背景颜色 */
+}
+
+.navbar li {
+    float: left; /* 使列表项水平排列 */
+}
+
+.navbar li a {
+    display: block; /* 将链接转换为块级元素 */
+    color: white; /* 设置链接文字颜色 */
+    text-align: center; /* 设置文字居中对齐 */
+    padding: 14px 16px; /* 设置内边距 */
+    text-decoration: none; /* 移除链接的下划线 */
 }
